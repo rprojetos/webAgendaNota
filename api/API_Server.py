@@ -15,7 +15,7 @@ db_cols = [
 
 @app.get('/')
 def Home():
-    return "Servidor esta rodando..."
+    return "Servidor inicializado..."
 
 @app.get('/notes/{user_name}')
 def Notes(user_name: str):
