@@ -1,0 +1,7 @@
+docker-compose up --build
+docker-compose up
+docker-compose down
+http://localhost:8000/
+docker-compose exec db psql -U postgres -d postgres -c "select * from notes"
+
+
